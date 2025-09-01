@@ -11,6 +11,16 @@ Instead of just writing a few random queries, I treated this like an **actual mo
 ## Dataset
 
 * **Source:** BigBasket products dataset (27k rows, multiple categories and brands).
+  
+* Full Dataset: data/bigbasket.csv
+Contains the complete data used for all queries and analysis.
+⚠️ Due to GitHub’s preview size limits, the file cannot be viewed in-browser.
+To access it, click “View raw” to download.
+
+* Sample Dataset: data/bigbasket_sample.csv
+A smaller file (~1,250 rows).
+Added for quick preview directly on GitHub without downloading.
+
 * **Fields Included:**
 
   * `product_name`
