@@ -92,3 +92,43 @@ Some of the **key questions answered using SQL**:
 * **Market Share:** In many categories, **1–2 brands captured >40% share**, showing strong brand concentration.
 * **Ratings vs Price:** Higher price segments did **not always guarantee higher ratings** — correlation was weak.
 * **Revenue Contribution:** A small set of categories contributed the **majority of overall revenue** (Pareto effect).
+
+
+---
+
+## SQL Functions & Concepts Used
+
+This project goes beyond basic SELECT queries and covers a **moderate range of SQL functions and techniques**:
+
+* **Aggregation Functions:**
+  * `COUNT()` – product counts, category sizes
+  * `SUM()` – revenue totals
+  * `AVG()` – average ratings, prices
+  * `ROUND()` – rounding decimals for better readability
+
+* **Conditional Expressions:**
+  * `CASE WHEN` – categorizing products into **Low / Medium / High** price segments
+
+* **Data Cleaning & Verification:**
+  * Handling `NULL` values
+  * `DELETE` with conditions (removing bad rows)
+  * Duplicate removal using `CTID` trick
+
+* **Grouping & Filtering:**
+  * `GROUP BY` – category/brand-level analysis
+  * `HAVING` – filtering groups (finding duplicates)
+
+* **Sorting & Limiting:**
+  * `ORDER BY` with `DESC` and `LIMIT` for top-N queries
+
+* **Window Functions (Intermediate SQL):**
+  * `ROW_NUMBER() OVER (PARTITION BY … ORDER BY …)` → top 5 products in each category
+  * `SUM() OVER (PARTITION BY …)` → calculating brand **market share**
+
+* **Statistical Function:**
+  * `CORR()` → correlation between price and ratings
+
+* **Joins (implicit in cleaning):**
+  * `DELETE USING` → used to remove duplicate rows
+
+
