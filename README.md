@@ -92,7 +92,3 @@ Some of the **key questions answered using SQL**:
 * **Market Share:** In many categories, **1–2 brands captured >40% share**, showing strong brand concentration.
 * **Ratings vs Price:** Higher price segments did **not always guarantee higher ratings** — correlation was weak.
 * **Revenue Contribution:** A small set of categories contributed the **majority of overall revenue** (Pareto effect).
-
----
-
-ickly check schema without scrolling through all queries.
