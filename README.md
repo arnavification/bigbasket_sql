@@ -34,19 +34,6 @@ The raw dataset was uploaded as `bigbasket.csv` inside the `/data/` folder.
 
 ---
 
-## Project Structure
-
-```
-bigbasket-sql-project/
-│── README.md         # Project documentation (this file)
-│── queries.sql       # All SQL queries used in this project
-│── data/
-│   └── bigbasket.csv # The dataset (27k+ rows)
-│── schema.sql        # (Optional) CREATE TABLE schema
-```
-
----
-
 ## Steps Followed
 
 ### 1. Data Setup
